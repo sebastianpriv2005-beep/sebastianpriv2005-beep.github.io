@@ -125,3 +125,16 @@ footer {
   color: #aaa;
   background: rgba(0,0,0,0.6);
 }
+.video-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.video-container iframe {
+  width: 100%;
+  max-width: 700px;  /* ancho máximo del video /
+  height: 350px;     / altura del video */
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+}
